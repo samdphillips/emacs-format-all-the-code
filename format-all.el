@@ -1165,7 +1165,7 @@ Consult the existing formatters for examples of BODY."
   (:install "raco pkg install fmt")
   (:languages "Racket")
   (:features)
-  (:format (format-all--buffer-easy executable "fmt")))
+  (:format (format-all--buffer-easy executable "fmt" "--width" "72")))
 
 (define-format-all-formatter rescript
   (:executable "rescript")
